@@ -1,0 +1,8 @@
+create components folder in src and init.py
+create data_ingestion.py, data_transformation.py
+model_trainer.py
+
+create pipeline folder
+with predict_pipeline, train_pipeline .py files
+
+

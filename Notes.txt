@@ -2,11 +2,12 @@
 ref: https://www.youtube.com/watch?v=Rv6UFGNmNZg&t=1127s
 
 Agenda 
-1. create env
-2. setup.py 
-3. requirements.txt
+1. Setup the github
+	a. create env
+	b. setup.py 
+	c. requirements.txt
 
-src folder and build package
+2. src folder and build package
 
 Cd in project folder and launch vscode in conda by cmd code .
 
@@ -43,3 +44,12 @@ whenever setup.py will run find packages will run and it will search folders wit
 adding -e . will automatically trigger setup.py
 but when we run setup.py directly  it should not trigger -e . so we will remove it from get_requirements in setup.py
 
+pip install -r requirements.txt
+
+before git add . confirm to pull gitignore
+else if unnecessary files are added use git reset HEAD .
+
+git add .    
+git status
+git commit -m "Setup"   
+git push -u origin main
