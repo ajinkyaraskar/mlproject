@@ -1,8 +1,16 @@
+2nd video
+ref https://www.youtube.com/watch?v=sDWL30CzJT8&t=499s
+
 create components folder in src and init.py
 create data_ingestion.py, data_transformation.py
 model_trainer.py
 
 create pipeline folder
-with predict_pipeline, train_pipeline .py files
+with init, predict_pipeline, train_pipeline .py files
+
+added and tested code for logger, exception 
+
+commited code to github
 
 
+3rd video
